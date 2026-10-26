@@ -17,7 +17,7 @@ mv .\logo_gamezone.PNG .\media\
 cp .\media\logo_gamezone.PNG .\backup\
 rm -r .\temp_207.tmp
 cd .\logs\
-ls -Force
+Get-Content .\game.log
 cd..
 ```
 
